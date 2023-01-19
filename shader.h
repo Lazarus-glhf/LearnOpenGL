@@ -21,6 +21,7 @@ public:
 	void setInt(const std::string& name, int value) const;
 	void setFloat(const std::string& name, float value) const;
 	void setVec(const std::string& name, float value1, float value2, float value3) const;
+	void setMat(const std::string& name, float value1, float value2, float value3, float value4) const;
 };
 
 #endif
